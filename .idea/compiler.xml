@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-lang" />
         <module name="common-script" />
-        <module name="common-web" />
+        <module name="common-web-controller" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-lang" target="1.8" />
       <module name="common-script" target="1.8" />
       <module name="common-web" target="1.8" />
+      <module name="common-web-controller" target="1.8" />
       <module name="commons" target="1.8" />
     </bytecodeTargetLevel>
   </component>
