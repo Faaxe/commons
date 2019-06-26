@@ -9,7 +9,7 @@ import java.lang.reflect.Type;
 /**
  * fastjson 消息转换器
  *
- * spring 默认使用 faskson 进行json 与java bean 之间的互相转换
+ * spring 默认使用 fastjson 进行json 与java bean 之间的互相转换
  * 个人认为较优的策略是：
  * (1)采用 fastjson 进行 json => java bean，优点是速度快
  * (2)采用 jackson 进行 java bean => json，保证转换结果正确
