@@ -1,4 +1,4 @@
-package com.faxe.springboot.starter;
+package com.faxe.springboot.starter.config;
 
 import com.faxe.springboot.starter.convert.FastJsonGenericHttpMessageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +10,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import java.util.List;
 
 /**
+ *  WebMvcConfigurerAdapter
+ *
  * @author Xiang Zhou
  * @create 2018-09-04 17:09
  **/

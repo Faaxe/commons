@@ -43,6 +43,11 @@
 				<artifactId>fastjson</artifactId>
 				<version>1.2.49</version>
 			</dependency>
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>28.0-jre</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<build>
@@ -53,4 +58,14 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+	</dependencies>
 </project>
