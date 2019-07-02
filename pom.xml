@@ -11,6 +11,7 @@
 		<module>common-script</module>
 		<module>common-lang</module>
 		<module>common-starter</module>
+		<module>common-logging</module>
 	</modules>
 	<packaging>pom</packaging>
 
